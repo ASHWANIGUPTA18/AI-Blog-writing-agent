@@ -113,7 +113,7 @@ class State(TypedDict):
 # -----------------------------
 # 2) LLM
 # -----------------------------
-llm = ChatOpenAI(model="gpt-4.1-mini")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 # -----------------------------
 # 3) Router
